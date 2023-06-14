@@ -29,6 +29,13 @@ let package = Package(
             targets: [
                 "GoogleMapsM4B"
             ]
+        ),
+        .library(
+            name: "GooglePlaces",
+            targets: [
+                "GooglePlaces",
+                "GoogleMapsBase"
+            ]
         )
     ],
     targets: [
@@ -51,6 +58,11 @@ let package = Package(
             name: "GoogleMapsM4B",
             url: "https://github.com/ravitripathi/GoogleMapsSPM/releases/download/6.2.1/GoogleMapsM4B.xcframework.zip",
             checksum: "0327afbfc0f0246db0c479ce4cb839ac43872f7a734214cb3d232ba4ef4986f0"
+        ),
+        .binaryTarget(
+            name: "GooglePlaces",
+            url: "https://github.com/ravitripathi/GoogleMapsSPM/releases/download/6.2.1/GooglePlaces.xcframework.zip",
+            checksum: "70dfb479591a2ffdc247d1027e779b344b2c5324564f97dd4154be2a5eaa2601"
         )
     ]
 )
