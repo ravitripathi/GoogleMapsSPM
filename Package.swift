@@ -34,23 +34,23 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "GoogleMaps",
-            url: "https://github.com/ravitripathi/GoogleMapsSPM/releases/download/6.2.1-beta/GoogleMaps.xcframework.zip",
-            checksum: "52cb50db88e4d235109fb8de38ca97e078a0d1cd216245978d555ca537c0b8c4"
+            url: "https://github.com/ravitripathi/GoogleMapsSPM/releases/download/6.2.1/GoogleMaps.xcframework.zip",
+            checksum: "e4ccbc7567b06190fd1cb35186ced451cde317e6719d0e544bdb5202afe5153a"
         ),
         .binaryTarget(
             name: "GoogleMapsBase",
-            url: "https://github.com/ravitripathi/GoogleMapsSPM/releases/download/6.2.1-beta/GoogleMapsBase.xcframework.zip",
-            checksum: "27fd35f47736c2d65d494ec70e955b812080c0295c0f023ce1d3db3438fbfa64"
+            url: "https://github.com/ravitripathi/GoogleMapsSPM/releases/download/6.2.1/GoogleMapsBase.xcframework.zip",
+            checksum: "adad3cf9f92d54b99ba7e3c8bfb9e716358a9c41c14b3d316cfcc7d05963f2e0"
         ),
         .binaryTarget(
             name: "GoogleMapsCore",
-            url: "https://github.com/ravitripathi/GoogleMapsSPM/releases/download/6.2.1-beta/GoogleMapsCore.xcframework.zip",
-            checksum: "f9fd567a3f995f8498814fb09832cb17ac3e319ea4dfe0fcea7429a371452e3f"
+            url: "https://github.com/ravitripathi/GoogleMapsSPM/releases/download/6.2.1/GoogleMapsCore.xcframework.zip",
+            checksum: "3d84324a51ca6917c66340241f3d491265b406e92b0150b1bfab1ac9080afa4e"
         ),
         .binaryTarget(
             name: "GoogleMapsM4B",
-            url: "https://github.com/ravitripathi/GoogleMapsSPM/releases/download/6.2.1-beta/GoogleMapsM4B.xcframework.zip",
-            checksum: "ae3e0c0b0324c25489d0d0c9f099bd2426ba7bdfcb201162b12ece20fe63e8ed"
+            url: "https://github.com/ravitripathi/GoogleMapsSPM/releases/download/6.2.1/GoogleMapsM4B.xcframework.zip",
+            checksum: "0327afbfc0f0246db0c479ce4cb839ac43872f7a734214cb3d232ba4ef4986f0"
         )
     ]
 )
